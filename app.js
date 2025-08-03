@@ -63,7 +63,7 @@ function addNote() {
 
   const user = localStorage.getItem("loggedInUser");
   const users = JSON.parse(localStorage.getItem("users"));
-
+//hello
   users[user].notes.push(noteText);
   localStorage.setItem("users", JSON.stringify(users));
 
